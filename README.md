@@ -3,26 +3,32 @@ This script automates the installation and configuration of BadVPN on Ubuntu 18,
 
 ## Installation
 Clone this repository:
-
+```
 git clone https://github.com/your-username/badvpn-install-script.git
+```
 Run the installation script as root:
-
+```
 sudo ./badvpn_install.sh
+```
 Follow the prompts to enter the desired port number for BadVPN.
 
-Enter the port number for BadVPN: 60000
+Enter the port number for BadVPN: 7300
+
 After the script finishes running, BadVPN will be installed and configured to listen on the specified port.
 
 ## Usage
 To start the BadVPN service:
-
+```
 systemctl start badvpn
+```
 To stop the BadVPN service:
-
+```
 systemctl stop badvpn
+```
 To enable BadVPN to start automatically on boot:
-
+```
 systemctl enable badvpn
+```
 ## Contributing
 If you find any issues with this script or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
