@@ -11,7 +11,7 @@ This script automates the installation and configuration of BadVPN on Ubuntu 18,
 ## Installation
 ##### Clone this repository:
 
-`git clone https://github.com/lahirubro123/badvpn-install-script.git`
+`git clone https://github.com/lahirubro123/bad-vpn.git`
 
 ##### Run the installation script as root:
 
